@@ -1,0 +1,240 @@
+<head>
+    <tilte> Pagina principal </tilte>
+</head>
+<body>
+    <h1><strong>Introducao a Criacao de paginas HTML para iniciantes</strong> </h1>
+    <hr />
+    <h2> <title> Introducao</title></h2>
+    <p>Este manual e para ajudar a aprender HTML de maneira rapida e se familiarizar com topicos avancados.</p>
+    <p>HTML forma abreviada de Hypertext Markup Language(em portugues, linguagem de marcac ao de hipertexto), e um dos blocos fundamentais da web.</p>
+    <p> O HTML nasceu oficialmente em 1993.</p>
+
+    <h1 # id="Inicio"><strong>Sumario </strong></h1>
+
+    <ul>
+
+        <li> <u><a href="#Prefacio">Prefacio</a></u></li>
+        <li> <u><a href="#HTML basico">HTML basico</a></u></li>
+        <li> <u><a href="#Corpo do documento">Corpo do documento</a></u></li>
+        <li> <u><a href="#Tags que interagem com texto">tags que interagem com texto</a></u></li>
+        <li> <u><a href="#Listas">Listas</a></u></li>
+        <li> <u><a href="#Links">Links</a></u></li>
+        <li> <u><a href="#Referencias">Referencias</a></u></li>
+        
+
+    </ul>
+
+    <h1 id="prefacio"><strong>Prefacio</strong></h1>
+    <small><a href="#Inicio">Voltar</a></small>
+    
+
+    <p>O HTML e a base da maravilha que chamamos de web.</p>
+    <p>Em vinte anos que se passaram , o HTML ainda e a base da web, com mudancas minimas desde entao</p>
+    <p>O sucesso do HTML  e baseado em uma coisa: simplicidade</p>
+    <p>Sabemos ate qual foi a primeria pagina da web.</p>
+    <a href="http//info.cern.ch/hypertext/www/theproject.html">Primeira pagina da web</a>
+    <p>Voce pode ver a fone da pagina, gracas a outro grande recurso da web e do HTML:<strong>podemos inspecionar o HTML de qualquer pagina da web(precionano tecla F12 ou barra do navegador 3 pontinhos / mais ferramentas/ ferramentas do desenvolvedor)</strong></p>
+    <p>Se voce e novo em HTML, este texto tem como objetivo ajuda-lo a comercar.</p>
+    
+
+
+    <h2 id="HTML basico"> <STRONG>HTML BASICO</STRONG></h2>
+    <small><a href="#Inicio">Voltar</a></small>
+    
+        
+        <P>HTML e um padrao definido pelo <STRONG> WHATWG</STRONG>, um acronimo para Web ?Hypertext Application Technology Working Group, uma organizacao formada por pessoas que rabalham nos navegadores da web.</P>
+        <p> O HTML e a linguagem de marcacao que usadmos para estruturar o conteudo que consumimos na web.</p>
+        <p>Ele e servido no navegador de diferentes maneiras</p>
+
+        <ul>
+            <li>Ele pode ser gerado por uma aplicacao do lado do servidor que o constroi denpendendo da solicitacao ou dos dados da sessao</li>
+            <li>Ele pode ser gerado por uma aplicacao em JavaScript do lado do client que gera HMTL em tempo real</li>
+            <li>No caso mais simples, ele pode ser armazenado em um arquivo e servido no navegador por um servidor da web</li>
+        </ul>
+
+        <p> Por convencao, um arquivo   HTML e salvo com uma extensao. html ou .htm</p>
+
+        <p> Dentro desse arquivo, organizamos o conteudo usando <strong>tags</strong></p>
+        <p> As tags envolvem o conteudo e cada tag da um significado especial ao texto que envolve</p>
+
+        <p>Este trecho de  HTML cria um paragrafo usando a tag p:</p>
+
+        <p> Exemplo: < p> Um paragrafo de texto < /p></p>
+
+        <p>Este trecho de HTML cria uma lista de itens usando a tag ul, que significa lista não ordenada. As tags li significam item de lista:</p>
+
+
+        <p>< ul></ul></p>
+        <p>< li>Primeiro item< /li></p>
+        <p>< li>Segundo item< /li></p>
+        <p>< li>Terceiro item< /li></p>
+        <p>< /ul></p>    
+
+        <p>Quando uma pagina de HTML e servida pelo navegador, as tags sao interpretadas e o navegador renderiza os elementos de acordo com as regras que definem sua aparencia visual</p>
+         
+        <p>Dentro do elemento HTML temos 2 elementos, head e body:</p>
+
+        <p>< !DOCTYPE html></p>
+        <p>< html></p>
+        <p>    < head></p>
+        <p>         ...</p>
+        <p>    < /head></p> 
+        <p>    < body></p>
+        <p>          ...</p>
+        <p>    < /body></p> 
+
+        <p>Dentro de head, teremos tags que são essenciais para a criação de uma página web, como o título, os metadados, o CSS e o JavaScript internos ou externos. Em especial, coisas que não aparecem diretamente na página, mas apenas ajudam o navegador (ou bots como o bot de pesquisa do Google) a exibi-la corretamente.</p>
+
+        <p>Dentro do body, teremos o conteúdo da página em si – as coisas visíveis.</p>
+
+        <h3> <strong>Tag title</strong></h3>
+
+        <P>A tag title determina o título da página. O título é exibido no navegador e é especialmente importante, pois é um dos principais fatores para a otimização de mecanismos de pesquisa (SEO).</P>
+        
+        <p> Exemplo: < title>texto< /title></p>
+
+        <h2 id="Corpo do documento"><strong>CORPO DO DOCUMENTO</strong></h2>
+        <small><a href="#Inicio">Voltar</a></small>
+
+
+
+        <p>Após o fechamento da tag head, só podemos ter uma coisa em um documento HTML: o elemento body.</p>
+
+        <p>Assim como as tags head e html, só podemos ter uma tag body em uma página.</p>
+
+        <p>Dentro da tag body temos todas as tags que definem o conteúdo da página.</p>
+
+        <p>Tecnicamente, as tags de abertura e de fechamento de body são opcionais. Considero, no entanto, uma boa prática adicioná-las, apenas para maior clareza.</p>
+
+        <p>Nos próximos capítulos, definiremos a variedade de tags que você pode usar dentro do corpo da página.</p>
+
+        <h1 id="Tags que interagem com texto" >TAGS QUE INTERAGEM COM TEXTO</h1>
+        <small><a href="#Inicio">Voltar</a></small>
+
+        <h3>Tag p</h3>
+
+        <p>Essa tag define um parágrafo de texto.</p>
+
+        <p>< p>Um texto< /p></p>
+
+        
+        <h3>Tags de título</h3>
+
+        
+        <p>O HTML nos fornece 6 tags de título. Do mais importante ao menos importante, temos h1, h2, h3, h4, h5 e h6.</p>
+        
+        <p>Normalmente, uma página terá um elemento h1, que é o título da página. Então, você pode ter um ou mais elementos h2 dependendo do conteúdo da página.</p>
+        
+        <p>O navegador, por padrão, tornará a tag h1 maior e diminuirá o tamanho dos elementos à medida que o número próximo a h aumentar:</p>
+
+
+        <h3>Tag strong</h3>
+
+
+        <p>Os navegadores, por padrão, deixam o texto dessa tag em negrito.</p>
+
+        <p> Exemplo: < strong>texto< /strong></p>
+
+        
+        <h3>Tag i</h3>
+
+
+        <p>Os navegadores, por padrão, deixam o texto dessa tag em italico.</p>
+
+        <p> Exemplo: < i>texto< /i></p>
+
+        
+        <h3>Tag mark</h3>
+
+
+        <p>Os navegadores, por padrão, deixam o texto dessa tag em marcador de texto</p>
+
+        <p> Exemplo: < mark>texto< /mark></p>
+
+        
+        <h3>Tag u </h3>
+
+        <p>Os navegadores, por padrão, deixam o texto dessa tag em sublimados.</p>
+
+        <p> Exemplo: < u>texto< /u></p>
+
+
+        <h3>Citações</h3>
+
+
+        <p>A tag HTML <strong>blockquote</strong> é útil para inserir citações no texto</p>
+        
+
+        <h3>Linha horizontal  hr </h3>
+
+
+        <p>Essa tag não é realmente baseada em texto. A tag hr é frequentemente usada dentro de uma página. "hr", aqui, significa horizontal rule e adiciona uma linha horizontal na página.</p>
+         
+        
+
+        <h1 id="Listas"><strong>Listas</strong></h1>
+        <small><a href="#Inicio">Voltar</a></small>
+
+        <p>Temos 2 tipos de listas:</p>
+
+        <ul>
+            <li>listas não ordenadas</li>
+            <li>listas ordenadas</li>
+        </ul>
+        
+        <p>As listas não ordenadas são criadas usando a tag ul. Cada item da lista é criado com a tag li:</p>
+
+        <p>< ul></ul></p>
+        <p>< li>Primeiro item< /li></p>
+        <p>< li>Segundo item< /li></p>
+        <p>< li>Terceiro item< /li></p>
+        <p>< /ul></p>    
+
+
+        <P>As listas ordenadas são semelhantes, mas são criadas com a tag ol:</P>
+
+        <p>< ol></ul></p>
+        <p>< li>Primeiro < /li></p>
+        <p>< li>Segundo < /li></p>
+        <p>< li>Terceiro < /li></p>
+        <p>< /ol></p>   
+
+        <p>A diferença entre os dois é que as listas ordenadas têm um número antes de cada item:</p>
+
+
+        <h1 id="Links"><strong>LINKS</strong></h1>
+        <small><a href="#Inicio">Voltar</a></small>
+
+
+        <p>Os links são definidos usando a tag a. O destino do link é definido por meio de seu atributo href.</p>
+        
+        <p> < a href="https://site.com">Clique aqui< /a></p>
+
+
+        <h1 id="Referencias">Referencias</h1>
+        <p><small><a href="#Inicio">Voltar</a></small></p>
+
+
+        <p><a href="https://www.freecodecamp.org/portuguese/news/manual-de-html-aprendizagem-de-html-para-iniciantes">Referencia 1></a></p>
+        
+        <p><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596">Referencia 2></a></p>
+
+        <p><a href="https://pt.scribd.com/document/468882252/43">Referencia 3></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+</body>
